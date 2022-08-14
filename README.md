@@ -1,6 +1,6 @@
 ### Using Python with satellite images
 
-You are given 6 raster files. All rasters have the same bounding box but are the annual composite (Landsat 8, 30 m resolution) of different years from 2015 to 2020. Each file has 7 bands that are associated with ["B2", "B3", "B4", "B5", "B6", "B7", "pixel_qa"] described [here](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_SR] respectively (Collection 1)).
+You are given 6 raster files. All rasters have the same bounding box but are the annual composite (Landsat 8, 30 m resolution) of different years from 2015 to 2020. Each file has 7 bands that are associated with ["B2", "B3", "B4", "B5", "B6", "B7", "pixel_qa"] described [here](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_SR) respectively (Collection 1).
 
 1.	You are given an AOI shapefile. Use this shapefile to clip each individual raster file and write down the new rasters. From now, only use the clipped rasters.
 
